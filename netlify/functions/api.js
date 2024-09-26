@@ -1,13 +1,13 @@
 const express = require('express')
 const Router = express.Router()
 const serverless = require('serverless-http')
-const UsersRouter = require('./routes/users/usersRouter')
-const WeatherRouter = require('./routes/weather/weatherRoute')
+const UsersRouter = require("../../routes/users/usersRouter")
+const WeatherRouter = require('../../routes/weather/weatherRoute')
 const cors = require('cors')
 const morgan = require('morgan')
 const swaggerJsDoc = require('swagger-jsdoc')
 const swaggerUi = require('swagger-ui-express')
-const {options} = require('./swagger')
+const {options} = require('../../swagger')
 
 
 const specs = swaggerJsDoc(options);

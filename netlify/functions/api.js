@@ -1,6 +1,6 @@
 const dontenv = require("dotenv")
 dontenv.config({path: __dirname + '/config.env'})
-const app = require('./app')
+const app = require('../../app')
 const mongoose = require('mongoose')
 const PORT = process.env.PORT
 const MONGO_URL = process.env.MONGO_URL

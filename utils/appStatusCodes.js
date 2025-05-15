@@ -4,7 +4,7 @@ class StatusCode {
 	static BAD_REQUEST = 400;
 	static UNAUTHORIZED = 403;
 	static SUCCESSFULL_REQUEST = 200;
-	static NOT_FOUND = 404
+	static NOT_FOUND = 404;
 }
 
 module.exports = StatusCode;
